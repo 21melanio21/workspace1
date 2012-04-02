@@ -2,4 +2,4 @@
 
  phpinfo();
 	
-/*End of sample php file*/
+/* End of sample php file */
