@@ -1,0 +1,138 @@
+@CHARSET "UTF-8";
+body {
+	margin: 0px;
+	font-size: 12pt;
+	background-color: #333;
+	font-family: Arial;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 900px;
+	border: 1px solid silver;
+	background-color:whitesmoke
+}
+.header{
+	height: 120px;
+	border-bottom: 1px solid silver;
+	background:transparent url("../images/ahydc_banner.png") no-repeat 20px center;
+	
+}
+.header .banner{
+	height: inherit;
+	background:transparent url("../images/top_image.png") no-repeat 740px center;
+}
+.content{
+	height: auto;
+}
+.footer{
+	height: 50px;
+	border-top: 1px solid silver
+}
+
+
+/* AHYDC Menu styling */
+
+#menu{
+	display: block;
+	border-bottom: 1px solid silver;
+	background-color: #ddd;
+}
+#menu ul#nav{
+	
+	list-style-type: none;	
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+#menu ul#nav li{
+	display: block;
+	float: left;
+	line-height: 2em;
+}
+#menu ul#nav li a{
+	text-decoration: none;
+	display: block;
+	padding: 0px 4px;
+	border-right: 1px solid silver;
+	width: 100px;
+	text-align: center;
+	color: blue;
+}
+#menu ul#nav li a.selected{
+	background-color: whitesmoke;
+}
+
+#menu ul#nav li a:HOVER{
+	background-color: whitesmoke;
+	
+}
+
+/* Sub menu styling */
+#menu ul#sub{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	border: 1px solid silver;
+	width: 108px;
+	display: none;
+}
+#menu ul#sub li{
+	display: block;
+	line-height: 2em;
+}
+#menu ul#sub li a{
+	text-decoration: none;
+	display: block;
+	padding: 0px 4px;
+	border-bottom: 1px solid silver;
+	width: 100px;
+	text-align: center;
+	color: blue;
+}
+
+/* Content Styling */
+.article{
+	padding: 20px 15px;
+}
+.article .data{
+	float: left;
+	width: 600px;
+}
+.article .data1{
+	float: right;
+	width: 250px;
+	border: 1px solid silver;
+}
+.article .data p{
+	text-align: justify;
+}
+.article .data1 h2{
+	margin: 0px;
+	padding: 10px 5px;
+	display: block;
+	border-bottom: 1px solid silver;
+	background-color: #ddd;
+	font-size: 15pt;
+}
+.article .data1 .news-list{
+	padding: 0px 10px 10px 10px;
+}
+.article .data1 .news{
+	border: 1px solid silver;
+	margin-top: 15px;
+}
+.article .data1 .news span{
+	color: blue;
+	border-bottom: 1px solid silver;
+	display: block;
+	padding: 4px;
+	font-size: 11pt;
+}
+.article .data1 .news p{
+	line-height: 1.2em;
+	margin: 0px;
+	padding: 8px;
+	text-align: justify;
+	font-size: 10pt;
+	display: block;
+}
